@@ -1,6 +1,7 @@
 {
   "name": "api-github",
   "private": true,
+  "homepage": "https://VictorMFL.github.io/Questionario",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
