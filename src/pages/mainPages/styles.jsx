@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
@@ -9,10 +9,6 @@ export const Container = styled.div`
   text-align: center;
   min-height: 100vh;
   padding: 0 2rem;
-`;
-
-export const Logo = styled.img`
-  width: 130px;
 `;
 
 export const Title = styled.h1`

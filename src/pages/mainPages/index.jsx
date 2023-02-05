@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import { MdSearch } from 'react-icons/md';
 
-import { Container, Logo, Title, Form, Input, Button } from './styles';
+import { Container, Title, Form, Input, Button } from './styles';
 
-import githubLogo from "/essets/github-logo.svg";
+import GithubLogoSvg from '../../../assets/GithubLogoSvg';
 
 const MainPage = () => {
   const [login, setLogin] = useState('');
 
   return (
     <Container>
-      <Logo src={githubLogo} alt="API Github" />
+      <GithubLogoSvg alt='Logo GitHub' />
       <Title>API Github</Title>
       <Form>
         <Input

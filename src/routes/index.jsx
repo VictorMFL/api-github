@@ -8,10 +8,9 @@ export default function Rotas() {
   return (
     <Router>
       <Routes>
-        <Route path="/:login/repositories" element={<RepositoriesPage />} />
-        <Route path="/vite-gh-pages" element={<MainPage />} />
-        <Route path="/victormfl.github.io/api-github/" element={<MainPage />} />
         <Route path="/" element={<MainPage />} />
+        <Route path="api-github/" element={<MainPage />} />
+        <Route path="/:login/repositories" element={<RepositoriesPage />} />
       </Routes>
     </Router>
   );
