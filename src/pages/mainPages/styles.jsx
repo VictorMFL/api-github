@@ -16,7 +16,7 @@ export const Title = styled.h1`
   color: ${props => props.theme.colors.text};
 `;
 
-export const Form = styled.div`
+export const Form = styled.form`
   display: flex;
   align-items: center;
   justify-content: center;
