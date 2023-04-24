@@ -29,7 +29,7 @@ const Profile = ( {user} ) => (
       {user.blog && (
         <Data>
           <MdLink size={20} />
-          <a href={`\\${user.blog}`} target="_blank">{user.blog}</a>
+          <a href={`${user.blog}`} target="_blank">{user.blog}</a>
         </Data>
       )}
     </Inner>
